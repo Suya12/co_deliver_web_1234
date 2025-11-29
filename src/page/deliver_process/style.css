@@ -1,0 +1,46 @@
+/* 모바일 박스 */
+.order-box {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 16px;
+    overflow-y: auto;
+}
+
+/* 타이틀 */
+.order-box .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 정보 박스 */
+.info-box {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* 행(가게/메뉴 라인) */
+.info-box .row,
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    
+}
+
+.info-box .row:last-child {
+    border-bottom: none;
+}
+
+.arrival-time {
+    font-size: 30px;   /* 원하는 크기로 변경 */
+    font-weight: bold; 
+}

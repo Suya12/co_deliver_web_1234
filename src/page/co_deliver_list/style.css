@@ -1,0 +1,49 @@
+/* 공동주문 리스트 */
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-card {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-info {
+    flex: 1;
+}
+
+.order-store {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.order-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+/* 태그 스타일 */
+.order-tag {
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.tag-direct {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.tag-share {
+    background: #fff3e0;
+    color: #ef6c00;
+}
